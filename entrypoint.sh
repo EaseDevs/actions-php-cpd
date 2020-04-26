@@ -14,4 +14,6 @@ echo "PHP Version : ${PHP_FULL_VERSION}"
 
 /phpcpd ${ARGS}
 
+echo "DONE"
+
 exit 0
