@@ -12,8 +12,4 @@ fi
 echo "## Running PHP Copy Paste Detector with ${ARGS}"
 echo "PHP Version : ${PHP_FULL_VERSION}"
 
-/phpcpd ${ARGS}
-
-echo "DONE"
-
-exit 0
+/phpcpd ${ARGS} || true
